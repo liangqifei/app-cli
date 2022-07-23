@@ -1,6 +1,6 @@
 {
   "name": "app-cli-lqf",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "自动化工具",
   "main": "index.js",
   "scripts": {
