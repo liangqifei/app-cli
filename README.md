@@ -1,7 +1,7 @@
 # app-cli
 自动化工具
   ## 初始化版本 1.0.0
-    支持 cli init <projectName>  --projectName 项目名称
+    支持 appcli init <projectName>  --projectName 项目名称
     支持 --template 参数  默认为 https://github.com/liangqifei/app-cli/{template}
       --vue-js
       --vue-ts
