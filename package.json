@@ -1,6 +1,6 @@
 {
   "name": "app-cli-lqf",
-  "version": "1.0.01",
+  "version": "1.0.2",
   "description": "自动化工具",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/liangqifei/app-cli.git"
+    "url": "git+https://github.com/liangqifei/app-cli.git"
   },
   "author": "",
   "license": "ISC",
