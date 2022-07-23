@@ -1,6 +1,6 @@
 {
   "name": "app-cli-lqf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "自动化工具",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
   "dependencies": {
     "chalk": "4.1.0",
     "clear": "^0.1.0",
+    "commander": "^9.4.0",
     "degit": "^2.8.4",
     "figlet": "^1.5.2",
     "ora": "^5.1.0"
