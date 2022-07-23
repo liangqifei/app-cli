@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liangqifei/app-cli.git"
+    "url": "https://github.com/liangqifei/app-cli.git"
   },
   "author": "",
   "license": "ISC",
