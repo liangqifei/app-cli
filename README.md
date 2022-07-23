@@ -9,4 +9,6 @@
   ## 下一版本 2.0.0
     完善vue-js vue-ts的项目仓库
     增加options选项 来增加vite插件
+  ## gitAction
+   https://docs.github.com/cn/actions
     
