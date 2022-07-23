@@ -1,0 +1,29 @@
+{
+  "name": "app-cli",
+  "version": "1.0.0",
+  "description": "自动化工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cli": "./bin/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangqifei/app-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangqifei/app-cli/issues"
+  },
+  "dependencies": {
+    "chalk": "4.1.0",
+    "clear": "^0.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "ora": "^5.1.0"
+  },
+  "homepage": "https://github.com/liangqifei/app-cli#readme"
+}
