@@ -11,4 +11,5 @@
     增加options选项 来增加vite插件
   ## gitAction
    https://docs.github.com/cn/actions
+   https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html
     
