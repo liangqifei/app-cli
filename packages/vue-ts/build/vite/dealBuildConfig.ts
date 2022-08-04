@@ -7,11 +7,10 @@ export function dealBuildConfig(config:EnvConfig){
         terserOptions: {
             compress: {
                 keep_infinity: true,
-                drop_console: config.VITE_GLOBDROP_CONSOLE
+                drop_console: Boolean(config.VITE_GLOB_DROP_CONSOLE)
             }
         },
-        // Turning off brotliSize display can slightly reduce packaging time
-        brotliSize: false,
-        chunkSizeWarningLimit: 2000
+        //规定触发警告的 chunk 大小。（以 kbs 为单位）默认： 500
+        chunkSizeWarningLimit: 1000
     }
 }

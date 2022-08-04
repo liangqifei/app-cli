@@ -6,5 +6,8 @@ type EnvConfig ={
     readonly VITE_GLOB_BASE_URL?: string;
     readonly VITE_GLOB_CACHEDIR?: string;
     readonly VITE_GLOB_OUTPUT_DIR?: string;
-    readonly VITE_GLOBDROP_CONSOLE?:boolean;
+    readonly VITE_GLOB_DROP_CONSOLE?:boolean;
+    readonly VITE_GLOB_PROXY?:string;
+
+    
 }

@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
 import { dealCommonConfig } from './build/vite/dealCommonConfig';
 import { dealResolveAliasConfig } from './build/vite/dealResolveAliasConfig';
 import { dealServerConfig } from './build/vite/dealServerConfig';
 import { loadEnvConfig } from './build/utils/loadEnvConfig';
 import { dealBuildConfig } from './build/vite/dealBuildConfig';
+import { createVitePlugins } from './build/vite/plugins';
 
 // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 // https://vitejs.dev/config/
@@ -18,6 +18,7 @@ export default defineConfig(({ command, mode }) => {
   const resolveAliasConfig = dealResolveAliasConfig(envConfig)
   const serverConfig=dealServerConfig(envConfig)
   const buildConfig=dealBuildConfig(envConfig)
+  const vitePluginsConfig=createVitePlugins(envConfig)
   return {
     root: projectRoot,
     ...comomConfig,
@@ -30,7 +31,7 @@ export default defineConfig(({ command, mode }) => {
     css:{
 
     },
-    plugins: [vue()]
+    plugins:vitePluginsConfig 
   }
 })
 
