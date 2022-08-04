@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo test",
-    "dev": "npm link"
+    "dev": "npm link",
+    "dev-vue-ts": "pnpm --filter vue-ts dev"
   },
   "bin": {
     "appcli": "./bin/deploy.js"
@@ -25,7 +26,10 @@
     "url": "https://github.com/liangqifei/app-cli/issues"
   },
   "dependencies": {
-    "chalk": "4.1.0",
+   
+  },
+  "devDependencies": {
+     "chalk": "4.1.0",
     "clear": "^0.1.0",
     "commander": "^9.4.0",
     "degit": "^2.8.4",
